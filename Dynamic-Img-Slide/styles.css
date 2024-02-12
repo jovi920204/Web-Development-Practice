@@ -1,0 +1,40 @@
+body {
+  background-color: #171717;
+}
+.pageControl {
+  width: 50px;
+  height: 50px;
+}
+
+header {
+  text-align: center;
+  color: white;
+}
+img {
+  display: block;
+  margin: 20px auto;
+  border: 1rem solid #a1ffa1;
+  border-radius: 10px;
+  width: 30%;
+  height: auto;
+}
+
+.search {
+  position: fixed;
+  right: 0px;
+}
+
+.controler{
+  display: flex;
+}
+
+.container{
+  display: flex;
+}
+h1{
+  color: white;
+  width: 0px;
+}
+.text{
+  font-family: Verdana, sans-serif;
+}

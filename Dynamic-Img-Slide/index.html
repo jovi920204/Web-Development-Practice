@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+    <title>Dynamic Img Slide</title>
+  </head>
+  <body onload="init();">
+    <header class="text">Dynamic Images Slide</header>
+    <div class="container">
+      <h1 id="displayID" class="text">ID:</h1>
+      <img id="image" src="/pics/100000.jpg" />
+    </div>
+    <div class="controler">
+      <input
+        onclick="prevImg();"
+        type="image"
+        src="/imgs/prev.png"
+        class="prev pageControl"
+        id="prev"
+      />
+      <input
+        onclick="nextImg();"
+        type="image"
+        src="/imgs/next.png"
+        class="next pageControl"
+        id="next"
+      />
+      <div class="search">
+        <input type="text" class="searchBar" id="searchBar" />
+        <button
+          onclick="search();"
+          type="submit"
+          class="searchButtom"
+          id="searchButtom"
+        >
+          Search
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
